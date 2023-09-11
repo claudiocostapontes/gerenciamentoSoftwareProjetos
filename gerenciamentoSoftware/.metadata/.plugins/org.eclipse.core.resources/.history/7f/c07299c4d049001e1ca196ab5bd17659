@@ -1,0 +1,25 @@
+package dao;
+
+public record Connection() {
+
+	public void rollback() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void commit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void commit1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void commit2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

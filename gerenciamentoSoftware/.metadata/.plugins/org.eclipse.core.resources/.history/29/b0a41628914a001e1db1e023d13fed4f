@@ -1,0 +1,9 @@
+package javaio;
+
+public class TesteIO {
+
+	public static void main(String[] args) {
+
+	}
+
+}

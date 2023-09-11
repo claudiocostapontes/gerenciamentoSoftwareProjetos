@@ -1,0 +1,10 @@
+package dao;
+
+public class stetement {
+
+	public static void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

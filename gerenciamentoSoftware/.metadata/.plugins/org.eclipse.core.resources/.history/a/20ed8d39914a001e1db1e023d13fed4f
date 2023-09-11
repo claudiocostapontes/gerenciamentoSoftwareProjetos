@@ -1,0 +1,13 @@
+package javaio;
+
+import java.io.IOException;
+
+public class TesteIO {
+
+	public static void main(String[] args) throws IOException {
+		
+		
+
+	}
+
+}

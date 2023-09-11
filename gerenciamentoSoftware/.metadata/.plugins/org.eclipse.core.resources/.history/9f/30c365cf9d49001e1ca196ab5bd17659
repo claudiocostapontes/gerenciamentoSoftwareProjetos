@@ -1,0 +1,31 @@
+package com.builder.principle;
+
+public class ConcreteBuilder implements Builder<Object> {
+	
+	PlataformaSoftware plataformaSoftware = null;
+	
+	public ConcreteBuilder() {
+		plataformaSoftware= new PlataformaSoftware();
+	}
+
+	@Override
+	public void buildClientes() {
+		
+	}
+
+	@Override
+	public void buildProjetos() {
+		
+	}
+
+	@Override
+	public void buildAtividades() {
+		
+	}
+
+	@Override
+	public Object buildPart() {
+		return null;
+	}
+
+}

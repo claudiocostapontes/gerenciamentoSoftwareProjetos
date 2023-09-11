@@ -1,0 +1,20 @@
+package dao;
+
+public class PreparedStatement {
+
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setLong(int i, Long usuario) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setString(int i, String tipo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

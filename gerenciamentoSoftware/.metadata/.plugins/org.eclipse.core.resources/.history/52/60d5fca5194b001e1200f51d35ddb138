@@ -1,0 +1,10 @@
+package com.builder.principle;
+
+public interface Builder<plataformaSoftware> {
+	
+	public void buildClientes();
+	public void buildProjetos();
+	public void buildAtividades();
+	public plataformaSoftware buildPart();
+		
+}

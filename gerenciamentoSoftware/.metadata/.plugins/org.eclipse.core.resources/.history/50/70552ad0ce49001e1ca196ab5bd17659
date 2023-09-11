@@ -1,0 +1,5 @@
+package dao;
+
+public class SQLException extends Exception {
+
+}

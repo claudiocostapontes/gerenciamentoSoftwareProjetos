@@ -1,0 +1,10 @@
+package gerenciamentoSoftware;
+
+public class Projetos {
+	public String Planejamento;
+	public String Analise;
+	public String desenho;
+	public String Desenvolvimento;
+	public String Teste;
+	public String Entrega;
+}

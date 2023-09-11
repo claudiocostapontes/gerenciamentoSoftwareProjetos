@@ -1,0 +1,11 @@
+package dao;
+
+public class UserSofDAO {
+	
+	private Connection connection;
+	
+	public UserSofDAO() {
+		connection = SingleConnection.getConnection();
+	}
+
+}

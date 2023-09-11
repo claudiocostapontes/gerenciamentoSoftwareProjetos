@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module gerenciamentoSoftware {
+	requires java.sql;
+	requires java.desktop;
+}

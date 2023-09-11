@@ -1,0 +1,71 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.w3c.dom.CDATASection;
+
+public class UserSofDAO {
+	
+	private static final UserSofDAO SingleConnection = null;
+	private dao.Connection connection;
+	
+	public UserSofDAO() {
+		setConnection(SingleConnection.getConnection());
+	}
+
+	public Connection getConnection() {
+		return connection;
+	}
+
+	public void setConnection(Connection connection) {
+		this.connection = connection;
+	}
+	
+	public <printStackTrace> void salvar(Usersofjava usersofjava) {
+		try	{
+		String sql = "insert into usersofjava (nome, email) values (?,?)";
+		PreparedStatement insert = Collection.preparedStatement(sql);
+		insert.setString(1, usersofjava.getNome());
+		insert.setString(2, ((Object) usersofjava).getEmail());
+		insert.execute();
+		CDATASection.commit();
+			
+		} catch (Exception e) {
+		try {
+		((Object) connection).rollback();
+		} catch (SQLException e1) {	
+		e1.printStackTrace();
+		}
+		e.printStackTrace();
+		
+	
+	
+	public void salvarTelefone(Telefone telefone) {
+		
+		try {
+			
+		String sql = "INSERT INTO telefoneuser(numero, tipo, usuariopessoa) VALUE (?,?,?);";
+		PreparedStatement statement = connection.prepareStatement(sql);
+		statement.setString(1, telefone)
+		}
+			
+		}catch (Exception e) {
+			connection.rollback();
+				catch (SQLException e1) 
+					e1.printStackTrace();	
+			
+	public List<Usersofjava> listar() throws Exception
+		List<Usersofjava> list = new ArrayList<Usersofjava>();
+	
+	
+	
+			
+			
+			
+			
+			

@@ -1,0 +1,17 @@
+package gerenciamentoSoftware;
+package com.builder.principle;
+
+public class Clientes {
+	
+	public static void main(String []args) {
+		
+	}
+		public String Tarefas = "solicitarModernizacao";
+		public String requsitosFuncionais = "simFfuncionais";
+		public String requisitosNaoFuncionais = "naoFuncionais";
+		public String Prototipacao = "devDesenvolvimento";
+		
+				
+	}
+
+

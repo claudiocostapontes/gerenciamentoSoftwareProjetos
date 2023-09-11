@@ -1,0 +1,41 @@
+package dao;
+
+public class UserSofDAO {
+
+private static final UserSofDAO SingleConnection = null;
+private dao.Connection connection;
+	
+public UserSofDAO() {
+	setConnection(SingleConnection.getConnection());
+}
+
+public Connection getConnection() {
+	return connection;
+}
+
+public void setConnection(Connection connection) {
+	this.connection = connection;
+}
+	
+{
+			
+	String sql = "INSERT INTO telefoneuser(numero, tipo, usuariopessoa) VALUE (?,?,?);";
+	PreparedStatement statement = connection.prepareStatement(sql);
+	statement.setString(1, telefone.getNumero());
+	statement.setString(2, telefone.getTipo());
+	statement.setLong(3, telefone.getUsuario());
+	stetement.execute();
+	connection.commit();
+		
+		
+		
+		
+		
+	
+	
+	
+			
+			
+			
+			
+			

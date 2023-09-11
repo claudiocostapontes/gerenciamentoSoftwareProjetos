@@ -1,0 +1,12 @@
+package com.builder.principle;
+
+public class TestBuilder {
+
+	private static PlataformaSoftware plataformaSoftware;
+
+	public static void main(String[] args) {
+		
+		plataformaSoftware = GerenciamentoSoftware.construct(new ConcreteBuilder());
+	}
+
+}

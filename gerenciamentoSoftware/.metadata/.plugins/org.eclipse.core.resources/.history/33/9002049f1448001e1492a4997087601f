@@ -1,0 +1,11 @@
+package gerenciamentoSoftware;
+
+public class Clientes {
+	public String Tarefas;
+	public String requsitosFuncionais;
+	public String requisitosNaoFuncionais;
+	public Boolean Prototipacao;
+	
+	
+
+}

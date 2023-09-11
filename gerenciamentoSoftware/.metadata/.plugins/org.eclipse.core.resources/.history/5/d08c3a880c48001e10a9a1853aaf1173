@@ -1,0 +1,6 @@
+package gerenciamentoSoftware;
+
+public class Clientes {
+	public String Tarefas;
+
+}

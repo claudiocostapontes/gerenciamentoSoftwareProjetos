@@ -1,0 +1,11 @@
+package gerenciamentoSoftware;
+
+public class Atividades {
+	
+	public String gestaoRecursos;
+	public String gestaoProjetos;
+	public String colaboracao;
+	public String produtividade;
+	public String fluxosTrabalho;
+
+}

@@ -1,0 +1,18 @@
+package gerenciamentoSoftware;
+
+public class Clientes {
+	
+	public static void main(String []args) {
+		
+	}
+		public String Tarefas = "solicitar.modernizacao";
+		public String requsitosFuncionais = "sim.funcionais";
+		public String requisitosNaoFuncionais = "nao.funcionais";
+		public String Prototipacao = "dev.desenvolvimento";
+		
+		
+		
+	
+	}
+
+

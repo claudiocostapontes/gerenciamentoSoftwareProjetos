@@ -1,0 +1,10 @@
+package dao;
+
+public class Usersofjava {
+
+	public Object getNome() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

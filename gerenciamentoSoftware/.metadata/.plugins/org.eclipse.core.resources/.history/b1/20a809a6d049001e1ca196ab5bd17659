@@ -1,0 +1,10 @@
+package dao;
+
+public record Connection() {
+
+	public void rollback() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

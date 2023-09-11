@@ -1,0 +1,11 @@
+package com.builder.principle;
+
+public interface Builder {
+	
+	public void buildClientes();
+	public void buildProjetos();
+	public void buildAtividades();
+	public 
+	
+
+}

@@ -1,0 +1,31 @@
+package dao;
+
+public class UserSofDAO {
+
+private static final UserSofDAO SingleConnection = null;
+private dao.Connection connection;
+	
+public UserSofDAO() {
+	setConnection(SingleConnection.getConnection());
+}
+
+public Connection getConnection() {
+	return connection;
+}
+
+public void setConnection(Connection connection) {
+	this.connection = connection;
+
+		
+		
+		
+		
+		
+	
+	
+	
+			
+			
+			
+			
+			

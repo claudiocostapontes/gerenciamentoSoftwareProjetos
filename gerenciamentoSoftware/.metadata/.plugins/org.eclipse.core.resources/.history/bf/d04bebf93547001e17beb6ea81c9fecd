@@ -1,0 +1,18 @@
+package gerenciamentoSoftware;
+
+public class gerenciarProjetos {
+	
+
+	import java.io.Serializable;
+
+	public class plataformaSoftware implements Serializable {
+		
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+		public String clientes;
+		public String projetos;
+		public String atividades;
+
+}

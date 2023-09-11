@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.commons-daemon
+Bnd-LastModified: 1610988631931
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Commons Daemon
+Bundle-DocURL: https://commons.apache.org/proper/commons-daemon/
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
+ =NOTICE.txt
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Export-Package: org.apache.commons.daemon;version="1.2.4",org.apache.c
+ ommons.daemon.support;version="1.2.4"
+Bundle-Name: Apache Commons Daemon
+Build-Jdk-Spec: 1.8
+Implementation-Title: Apache Commons Daemon
+Bundle-Description: Apache Commons Daemon software is a set of utiliti
+ es and Java support    classes for running Java applications as serve
+ r processes. These are    commonly known as 'daemon' processes in Uni
+ x terminology (hence the    name). On Windows they are called 'servic
+ es'.
+Implementation-Version: 1.2.4
+Specification-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-5.1.2.202007211702
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 1.2.4
+X-Compile-Target-JDK: 1.6
+Implementation-Build: master@r0373c020f233236ca7acf4fa4ceef31e27b7cb70
+ ; 2021-01-18 16:50:29+0000
+X-Compile-Source-JDK: 1.6
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 1.2.4
+
